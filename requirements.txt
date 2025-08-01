@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+jinja2
+aiofiles
+pypdf
+sentence-transformers
+faiss-cpu
+langchain_text_splitters
+openai
+python-dotenv
+nest_asyncio
+python-multipart
