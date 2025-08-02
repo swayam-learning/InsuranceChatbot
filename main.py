@@ -1452,7 +1452,8 @@ def parse_and_chunk_pdf(file_path: str) -> List[Dict[str, Any]]:
     return processed_chunks
 
 # Load SentenceTransformer model once globally
-embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME)
+embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME, cache_folder=None)
+
 
 def clean_query(query: str) -> str:
     cleaned_text = "".join(char for char in query if char.isalnum() or char.isspace()).strip()
