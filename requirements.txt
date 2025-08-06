@@ -1,19 +1,11 @@
 fastapi==0.95.2
 uvicorn==0.22.0
-<<<<<<< HEAD
-=======
-python-multipart==0.0.6
->>>>>>> 614d1978b3935932050b0459fb1f19da2d2ae7d0
 numpy==1.24.3
 pypdf==3.9.0
 langchain==0.1.12
 python-dotenv==1.0.0
 faiss-cpu==1.7.4
-<<<<<<< HEAD
 openai>=1.0.0  # Critical change - using v1+ syntax
-=======
-openai>=1.0.0
->>>>>>> 614d1978b3935932050b0459fb1f19da2d2ae7d0
 nest-asyncio==1.5.6
 nltk==3.8.1
 httpx==0.24.1
@@ -22,7 +14,4 @@ huggingface-hub==0.20.3
 sentence-transformers==2.6.1
 langchain-text-splitters==0.0.1
 langchain-core==0.1.37
-<<<<<<< HEAD
 python-multipart==0.0.6
-=======
->>>>>>> 614d1978b3935932050b0459fb1f19da2d2ae7d0
